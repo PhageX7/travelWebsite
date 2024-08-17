@@ -13,7 +13,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 150%;
+    opacity: 100%;
     font-weight: bolder;
 }
 
@@ -35,7 +35,7 @@ h2 {
 }
 
 #site-title {
-    color: rgb(169, 99, 7);
+    color: chocolate;
 }
 
 nav {
@@ -121,17 +121,17 @@ figcaption {
 #home_page {
     min-height: fit-content;
     margin: 50px;
-    color: rgb(255, 204, 122);
+    color: brown;
 }
 #about_page {
     min-height: 800px;
     margin: 50px;
-    color: rgb(255, 204, 122);
+    color: brown;
 }
 #contact_page {
     min-height: 800px;
     margin: 50px;
-    color: rgb(255, 204, 122);
+    color: brown;
 }
 
 #mentions {
@@ -142,7 +142,7 @@ figcaption {
 }
 
 #recommendations {
-    color: rgb(255, 204, 122);
+    color: brown;
     font-weight: 900;
     padding: 25px;
     margin: auto;
@@ -154,6 +154,6 @@ footer {
     background-color: black;
     width: 100%;
     min-height: 100px;
-    color: rgb(255, 204, 122);
+    color: brown;
     padding: 10px 50px;
 }
