@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -63,6 +64,25 @@ img {
     max-height: 175px;
 }
 
+.beach-imgs {
+    display: flex;
+    flex-flow: row;
+}
+
+.temple-imgs {
+    display: flex;
+    flex-flow: row;
+}
+
+section img {
+    max-width: 400px;
+    max-height: 600px;
+}
+
+figcaption {
+    position: relative;
+}
+
 #search-btn {
     padding: 2px;
     font-size: 0.15em;
@@ -73,22 +93,33 @@ img {
 }
 
 #home_page {
-    width: 100%;
-    min-height: 800px;
+    
+    min-height: fit-content;
     margin: 50px;
     color: chocolate;
 }
 #about_page {
-    width: 100%;
+    
     min-height: 800px;
     margin: 50px;
     color: chocolate;
 }
 #contact_page {
-    width: 100%;
+    
     min-height: 800px;
     margin: 50px;
     color: chocolate;
+}
+
+#mentions {
+    color:grey;
+    font-style: italic;
+}
+
+#recommendations {
+    color: chocolate;
+    font-weight: bolder;
+    padding: 25px;
 }
 
 footer {
