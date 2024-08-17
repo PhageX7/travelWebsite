@@ -8,6 +8,13 @@ a {
     text-decoration: none;
 }
 
+#email-submit {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;;
+}
+
 #main {
     background-image: url(./images/travel-image.avif);
     background-repeat: no-repeat;
