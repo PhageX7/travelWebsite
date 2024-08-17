@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: x-large;
+    padding: 15px;
+}
+
 #site-title {
     color: brown;
 }
