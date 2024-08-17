@@ -8,38 +8,51 @@
 </head>
 <body>
     <div id="main">
-        <nav>
-            <h1 id="site-title">Travel Website</h1>
-            <div><span><a href="#home_page">Home</a></span></div>
-            <div><span><a href="#about_page">About Us</a></span></div>
-            <div><span></span><a href="#contact_page">Contact Us</a></div>
-            <div><input type="search" id="search"><button id="search-btn" type="submit">Search</button></div>
-        </nav>
-        <div id="spacer"></div>
-        <div id="pages">
-            <div id="home_page">
-                <h1>Home Page</h1>
-                <p>This is the introduction to the home page...</p>
-            </div>
-            <div id="about_page">
-                <h1>About Us</h1>
-                <div>
+        <div id="container">
+            <nav>
+                <h1 id="site-title">Travel Website</h1>
+                <div><span><a href="#home_page">Home</a></span></div>
+                <div><span><a href="#about_page">About Us</a></span></div>
+                <div><span></span><a href="#contact_page">Contact Us</a></div>
+                <div><input type="search" id="search"><button id="search-btn" type="submit">Search</button></div>
+            </nav>
+            <div id="spacer"></div>
+            <div id="pages">
+                <div id="home_page">
+                    <h1>Home Page</h1>
+                    <p>This is the introduction to the home page...</p>
+                </div>
+                <div id="about_page">
+                    <h1>About Us</h1>
                     <p>Our Mission</p>
                     <ul>
                         <li>Our amazing story</li>
+                        
+                    </ul>
+                    <form action="email" id="form">
+                        <label for="name">Enter your Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Enter your email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="message">Enter your message:</label><br>
+                        <textarea name="message" id="message" placeholder="Enter message here..." cols="45" rows="15"></textarea>
+                    </form>
+                </div>
+                <div id="contact_page">
+                    <h1 >Contact</h1>
+                    <ul>
                         <li>Address</li>
                         <li>phone</li>
                     </ul>
-                    <form action="email">
-                        Enter email:
-                        <input type="email">
-                    </form>
                 </div>
             </div>
-            <div id="contact_page">
-                <h1 >Contact</h1>
-            </div>
         </div>
+        <footer>
+            <h2>Media</h2>
+            <div id="social-img">
+                <img src="./images/social-media.png" alt="social media icons">
+            </div>
+        </footer>
     </div>
 </body>
 </html>

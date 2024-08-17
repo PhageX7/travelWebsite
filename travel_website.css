@@ -4,9 +4,31 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+#main {
+    background-image: url(./images/travel-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 70%;
+}
+
+label {
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
 p {
     font-size: x-large;
     padding: 15px;
+}
+
+#pages {
+    font-weight: bolder;
 }
 
 #site-title {
@@ -22,27 +44,60 @@ nav {
     justify-content: space-between;
 }
 
+form {
+    background-color: aquamarine;
+    width: fit-content;
+    border: 2px dotted black;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+#social-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    clear: both;
+}
+
+img {
+    max-width: 175px;
+    max-height: 175px;
+}
+
 #search-btn {
     padding: 2px;
     font-size: 0.15em;
     background-color: wheat;
 }
 #search-btn:hover {
-    cursor: grab;
+    cursor: pointer;
+}
+
+#pages {
+    margin: 50px;
+    color: chocolate;
 }
 
 #home_page {
     width: 100%;
     min-height: 800px;
-    background-color: antiquewhite;
 }
 #about_page {
     width: 100%;
     min-height: 800px;
-    background-color: chartreuse;
 }
 #contact_page {
     width: 100%;
     min-height: 800px;
-    background-color: goldenrod;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    min-height: 100px;
+    color: chocolate;
+    padding: 10px 50px;
+
 }
