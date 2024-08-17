@@ -85,10 +85,12 @@ form {
 
 .beach_img {
     width: 350px;
+    height: 250px;
 }
 
 .temp_img {
    width: 350px;
+   height: 250px;
 }
 
 figcaption {
