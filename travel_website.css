@@ -14,7 +14,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 70%;
+    opacity: 90%;
     font-weight: bolder;
 }
 
@@ -25,8 +25,13 @@ label {
 }
 
 p {
-    font-size: x-large;
+    font-size: large;
     padding: 15px;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
 }
 
 #site-title {
@@ -59,28 +64,36 @@ form {
     clear: both;
 }
 
-img {
-    max-width: 175px;
-    max-height: 175px;
+.footer {
+    max-height: 150px;
 }
 
 .beach-imgs {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .temple-imgs {
     display: flex;
     flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-section img {
-    max-width: 400px;
-    max-height: 600px;
+.beach_img {
+    width: 350px;
+}
+
+.temp_img {
+   width: 350px;
 }
 
 figcaption {
     position: relative;
+    margin-bottom: 10px;
 }
 
 #search-btn {
@@ -93,19 +106,16 @@ figcaption {
 }
 
 #home_page {
-    
     min-height: fit-content;
     margin: 50px;
     color: chocolate;
 }
 #about_page {
-    
     min-height: 800px;
     margin: 50px;
     color: chocolate;
 }
 #contact_page {
-    
     min-height: 800px;
     margin: 50px;
     color: chocolate;
@@ -114,12 +124,17 @@ figcaption {
 #mentions {
     color:grey;
     font-style: italic;
+    font-size: xx-small;
+    max-width: 400px;
 }
 
 #recommendations {
     color: chocolate;
-    font-weight: bolder;
+    font-weight: 900;
     padding: 25px;
+    margin: auto;
+    align-self: center;
+    align-content: center;
 }
 
 footer {
