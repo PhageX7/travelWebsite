@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#site-title {
+    color: brown;
+}
+
+nav {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search-btn {
+    padding: 2px;
+    font-size: 0.15em;
+    background-color: wheat;
+}
+#search-btn:hover {
+    cursor: grab;
+}
+
+#home_page {
+    width: 100%;
+    min-height: 800px;
+    background-color: antiquewhite;
+}
+#about_page {
+    width: 100%;
+    min-height: 800px;
+    background-color: chartreuse;
+}
+#contact_page {
+    width: 100%;
+    min-height: 800px;
+    background-color: goldenrod;
+}
