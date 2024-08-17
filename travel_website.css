@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 a {
@@ -14,7 +13,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 90%;
+    opacity: 150%;
     font-weight: bolder;
 }
 
@@ -32,10 +31,11 @@ p {
 h2 {
     margin: auto;
     text-align: center;
+    padding-top: 70px;
 }
 
 #site-title {
-    color: brown;
+    color: rgb(169, 99, 7);
 }
 
 nav {
@@ -73,10 +73,17 @@ form {
     flex-flow: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 15px;
     
 }
 
 .temple-imgs {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.count-imgs {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -89,6 +96,10 @@ form {
 }
 
 .temp_img {
+   width: 350px;
+   height: 250px;
+}
+.count_img {
    width: 350px;
    height: 250px;
 }
@@ -110,17 +121,17 @@ figcaption {
 #home_page {
     min-height: fit-content;
     margin: 50px;
-    color: chocolate;
+    color: rgb(255, 204, 122);
 }
 #about_page {
     min-height: 800px;
     margin: 50px;
-    color: chocolate;
+    color: rgb(255, 204, 122);
 }
 #contact_page {
     min-height: 800px;
     margin: 50px;
-    color: chocolate;
+    color: rgb(255, 204, 122);
 }
 
 #mentions {
@@ -131,7 +142,7 @@ figcaption {
 }
 
 #recommendations {
-    color: chocolate;
+    color: rgb(255, 204, 122);
     font-weight: 900;
     padding: 25px;
     margin: auto;
@@ -143,6 +154,6 @@ footer {
     background-color: black;
     width: 100%;
     min-height: 100px;
-    color: chocolate;
+    color: rgb(255, 204, 122);
     padding: 10px 50px;
 }
